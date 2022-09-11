@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="icon/iconfont.css">
+</head>
+
+<body>
+    <div class="container-fluid pl-0 pr-0">
+        <!-- 导航栏 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-nav text-white">
+            <a class="navbar-brand text-white" href="#">学习笔记</a>
+            
+        </nav>
+
+        <!-- 主要内容 -->
+        <div class="">
+
+            <!-- 左侧 -->
+            <div id="mainLeft" class="float-left">
+
+                <div class="accordion" id="accordionExample">
+
+                    <div class="card bg-left ">
+                        <div class="card-header" id="headingJavaSE">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse"
+                                    data-target="#collapseJavaSE" aria-expanded="true" aria-controls="collapseJavaSE">
+                                    JavaSE
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseJavaSE" class="collapse" aria-labelledby="headingJavaSE"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="page/javaSE/setList/setList.html" target="main">集合体系结构</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active text-white" href="page/javaSE/IO/IO.html" target="main">IO流</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="page/JavaSE/Thread/Thread.html" target="main">多线程</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="page/JavaSE/Net/Net.html" target="main">网络编程</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" href="page/JavaSE/extend/extend.html" target="main">扩展</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-header" id="headingMySQL">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left text-white" type="button" data-toggle="collapse"
+                                data-target="#MySQL" aria-expanded="true" aria-controls="MySQL">
+                                MySQL
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="MySQL" class="collapse" aria-labelledby="headingMySQL"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="page/MySQL/SQL/Mysql.html" target="main">SQL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="page/MySQL/function.html" target="main">函数</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="page/MySQL/constraint.html" target="main">约束</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="page/MySQL/multiTableQuery.html" target="main">多表查询</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="page/MySQL/transaction.html" target="main">事务</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <!-- 右侧 -->
+            <div id="mainRight" class="float-right">
+                <iframe name="main" src="page/JavaSE/setList/setList.html" frameborder="0" width="100%" height="100%"></iframe>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

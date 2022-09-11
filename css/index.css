@@ -1,0 +1,18 @@
+#mainLeft{
+    width: 200px;
+    background: #2c3e50;
+    height: calc(100vh - 56px);
+}
+.bg-left{
+    background: #2c3e50;
+}
+
+#mainRight{
+   width: calc(100% - 200px);
+   height: calc(100vh - 56px);
+   
+}
+
+.bg-nav{
+    background-color: #4198c7;
+}
